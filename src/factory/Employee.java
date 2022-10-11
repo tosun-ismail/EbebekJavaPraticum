@@ -1,3 +1,4 @@
+package factory;
 public class Employee {
 
     private String name;
@@ -48,7 +49,7 @@ public class Employee {
     @Override
     public String toString() {
 
-        double netSalary = ((this.salary + bonus() - tax() + raiseSalary())) ;
+        double netSalary = (this.salary + bonus() - tax() + raiseSalary()) ;
         System.out.print("Name: " + this.name  +"\nİşe Giriş Yılı: " + this.hireYear + "\nÇalışma Saati: " + this.workHours
                 + "\nMaaş: " + this.salary + "\nBonus: " + bonus() + "\nVergi: " + tax()
                 + "\nZam: " + raiseSalary() + "\nNet Maaş: " + netSalary);
