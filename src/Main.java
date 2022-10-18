@@ -2,7 +2,7 @@ import factory.Employee;
 
 public class Main {
     public static void main(String[] args) {
-        Employee employee = new Employee("Mustafa Değirmen",1000.0,40,2020);
+        Employee employee = new Employee("kemal",2000.0,45,1985);
         employee.toString();
     }
 }

@@ -50,9 +50,10 @@ public class Employee {
     public String toString() {
 
         double netSalary = (this.salary + bonus() - tax() + raiseSalary()) ;
-        System.out.print("Name: " + this.name  +"\nİşe Giriş Yılı: " + this.hireYear + "\nÇalışma Saati: " + this.workHours
-                + "\nMaaş: " + this.salary + "\nBonus: " + bonus() + "\nVergi: " + tax()
-                + "\nZam: " + raiseSalary() + "\nNet Maaş: " + netSalary);
+        System.out.print("Name : " + this.name  +"\nİşe Giriş Yılı : " + this.hireYear
+                + "\nÇalışma Saati : " + this.workHours + "\nMaaş : " + this.salary
+                + "\nBonus : " + bonus() + "\nVergi : " + tax() + "\nZam : "
+                + raiseSalary() + "\nNet Maaş : " + netSalary);
 
 
 
